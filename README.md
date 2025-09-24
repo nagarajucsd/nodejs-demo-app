@@ -22,3 +22,4 @@ This project demonstrates a CI/CD pipeline using GitHub Actions and DockerHub. I
 ```bash
 docker build -t YOUR_DOCKER_USERNAME/nodejs-demo-app:latest .
 docker run -p 3000:3000 YOUR_DOCKER_USERNAME/nodejs-demo-app:latest
+
